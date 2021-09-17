@@ -1,7 +1,12 @@
 # Video_Frames_Complexity
 
-Comlexity calculations of video frames
+## Problem Scope
 
+In user content generated web-services - lets say YouTube - the process of de- duplication is of serious importance. One straight forward reason is same video by different names is just an extra cost in data-storage. So getting rid of exact duplicate content makes financial sense. Please be reminded that exact same content with different video qualities may not be candidates for removal via de-duplication.
+
+## Theoretical Background
+
+Comlexity calculations of video frames
 
 For the purposes of our task, we will set a very narrow criterion for de-duplication : just the filenames.
 
@@ -16,4 +21,4 @@ Also, please be reminded that you cannot use library functions in Java to per- f
 You will solve the problem in two ways:-
 
 1. Implement the function in such a way that your solution solves the problem with  *O* ( *n* ) time complexity and  *O* ( *n* ) space complexity. Here, *n *is the length of the list of input integers (array)
-2.  In a separate implementation, improve the solution in (1) in such a way that your solution solves the problem with  *O* ( *n* ) time com- plexity but stays within the bounds of  *O* (1) space complexity. Here, *n *is the length of the list of input integers (array) as well.
+2. In a separate implementation, improve the solution in (1) in such a way that your solution solves the problem with  *O* ( *n* ) time com- plexity but stays within the bounds of  *O* (1) space complexity. Here, *n *is the length of the list of input integers (array) as well.
